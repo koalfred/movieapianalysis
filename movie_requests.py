@@ -29,20 +29,14 @@ def request_movie_data():
             country = str(data['Country'].split(", "))
 
             headers = ['Movie Title', 'Runtime', 'Genre', 'Award Wins', 'Award Nominations', 'Box Office', 'Language', 'Rating', 'Country']
-            info_data = [title, runtime, genre, award_wins, award_nominations, box_office, language, rating, country]
-            # info = info_data.tolist()
+            info = [title, runtime, genre, award_wins, award_nominations, box_office, language, rating, country]
 
             with open('movies.csv', 'w') as f:
                 writer = csv.writer(f)
                 writer.writerow(headers)
-                # writer.writerows(info)
-                # json.load(info)
-                # for row in info:
-                # #     writer.writerow(info)
-                # for row in info:
-                #     writer.writerows(row)
+                for row in info:
+                    writer.writerows([info])
 
-                # writer.writerow(info)
-                print(info_data)
+                print(info)
 
 request_movie_data()
