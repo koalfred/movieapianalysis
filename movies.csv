@@ -1,10 +1,16 @@
-Movie Title,Runtime,Genre,Award Wins,Award Nominations,Box Office,Language,Rating,Country
-The King's Speech,118,"['Biography', 'Drama', 'History']",108,206,138797449,['English'],R,"['United Kingdom', 'United States']"
-The King's Speech,118,"['Biography', 'Drama', 'History']",108,206,138797449,['English'],R,"['United Kingdom', 'United States']"
-The King's Speech,118,"['Biography', 'Drama', 'History']",108,206,138797449,['English'],R,"['United Kingdom', 'United States']"
-The King's Speech,118,"['Biography', 'Drama', 'History']",108,206,138797449,['English'],R,"['United Kingdom', 'United States']"
-The King's Speech,118,"['Biography', 'Drama', 'History']",108,206,138797449,['English'],R,"['United Kingdom', 'United States']"
-The King's Speech,118,"['Biography', 'Drama', 'History']",108,206,138797449,['English'],R,"['United Kingdom', 'United States']"
-The King's Speech,118,"['Biography', 'Drama', 'History']",108,206,138797449,['English'],R,"['United Kingdom', 'United States']"
-The King's Speech,118,"['Biography', 'Drama', 'History']",108,206,138797449,['English'],R,"['United Kingdom', 'United States']"
-The King's Speech,118,"['Biography', 'Drama', 'History']",108,206,138797449,['English'],R,"['United Kingdom', 'United States']"
+Movie Title,Runtime,Genre,Award Wins,Award Nominations,Box Office,Language,Rating,Country,Nominations
+Parasite,132,"['Drama', 'Thriller']",307,272,53369749,"['Korean', 'English']",R,['South Korea'],579
+Green Book,130,"['Biography', 'Comedy', 'Drama']",59,124,85080171,"['English', 'Italian', 'Russian', 'German']",PG-13,"['United States', 'China']",183
+The Shape of Water,123,"['Drama', 'Fantasy', 'Romance']",139,358,63859435,"['English', 'American Sign ', 'Russian', 'French']",R,"['United States', 'Mexico']",497
+Moonlight,111,['Drama'],230,301,27854932,['English'],R,['United States'],531
+Spotlight,129,"['Biography', 'Crime', 'Drama']",124,144,45055776,['English'],R,['United States'],268
+Birdman or (The Unexpected Virtue of Ignorance),119,"['Comedy', 'Drama']",193,293,42340598,['English'],R,['United States'],486
+12 Years a Slave,134,"['Biography', 'Drama', 'History']",242,337,56671993,['English'],R,"['United States', 'United Kingdom']",579
+Argo,120,"['Biography', 'Drama', 'Thriller']",95,156,136025503,"['English', 'Persian', 'German', 'Arabic']",R,"['United Kingdom', 'United States']",251
+The Artist,100,"['Comedy', 'Drama', 'Romance']",162,204,44671682,"['English', 'French']",PG-13,"['France', 'Belgium', 'United States']",366
+The King's Speech,118,"['Biography', 'Drama', 'History']",108,206,138797449,['English'],R,"['United Kingdom', 'United States']",314
+Arrival,116,"['Drama', 'Mystery', 'Sci-Fi']",70,269,100546139,"['Russian', 'Mandarin', 'English']",PG-13,"['United States', 'Canada']",339
+Dune: Part One,155,"['Action', 'Adventure', 'Drama']",171,278,108327830,"['English', 'Mandarin']",PG-13,"['United States', 'Canada']",449
+No Time to Die,163,"['Action', 'Adventure', 'Thriller']",42,74,160891007,"['English', 'French', 'Italian', 'Russian', 'Spanish', 'Norwegian', 'German']",PG-13,"['United Kingdom', 'United States']",116
+Once Upon a Time in Hollywood,161,"['Comedy', 'Drama']",143,381,142502728,"['English', 'Italian', 'Spanish', 'German']",R,"['United States', 'United Kingdom', 'China']",524
+Everything Everywhere All at Once,139,"['Action', 'Adventure', 'Comedy']",370,348,77191785,"['English', 'Mandarin', 'Cantonese']",R,['United States'],718

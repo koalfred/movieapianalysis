@@ -10,6 +10,12 @@ import re
 def request_movie_data():
     with open('oscar_winners.csv') as csvfile:
         rows = csv.DictReader(csvfile)
+        headers = ['Movie Title', 'Runtime', 'Genre', 'Award Wins', 'Award Nominations', 'Box Office', 'Language', 'Rating', 'Country', 'Nominations']
+        
+        with open('movies.csv', 'a') as f:
+            writer = csv.writer(f)
+            writer.writerow(headers)
+            
         for row in rows:
             res = requests.get(f"https://www.omdbapi.com/?i={row['IMDB']}&apikey={api_key}")
             data = res.json()
@@ -27,16 +33,12 @@ def request_movie_data():
             language = str(data['Language'].split(", "))
             rating = str(data['Rated'])
             country = str(data['Country'].split(", "))
+            total_nominations = int(award_wins + award_nominations)
 
-            headers = ['Movie Title', 'Runtime', 'Genre', 'Award Wins', 'Award Nominations', 'Box Office', 'Language', 'Rating', 'Country']
-            info = [title, runtime, genre, award_wins, award_nominations, box_office, language, rating, country]
+            info = [title, runtime, genre, award_wins, award_nominations, box_office, language, rating, country, total_nominations]
 
-            with open('movies.csv', 'w') as f:
+            with open('movies.csv', 'a') as f:
                 writer = csv.writer(f)
-                writer.writerow(headers)
-                for row in info:
-                    writer.writerows([info])
-
-                print(info)
+                writer.writerows([info])
 
 request_movie_data()
